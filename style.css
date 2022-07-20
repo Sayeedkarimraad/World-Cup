@@ -1,5 +1,5 @@
 body {
-    font-family: 'Playfair Display', serif;
+    font-family: 'Poppins', sans-serif;
 }
 
 .first-part {
@@ -8,7 +8,7 @@ body {
     margin: 60px 160px;
     border-radius: 30px;
     color: white;
-    height: 78vh;
+    height: 80vh;
 }
 
 .intro img {
@@ -30,7 +30,8 @@ body {
 }
 
 .intro h1 {
-    font-size: 90px;
+    font-size: 75px;
+    font-weight: bold;
 }
 
 .intro p {
@@ -48,4 +49,85 @@ body {
     padding: 15px 30px;
     border-radius: 10px;
 
+}
+
+.second-part {
+    display: flex;
+    height: 100vh;
+    margin-top: 100px;
+    justify-content: center;
+}
+
+.side-part {
+    background-color: black;
+    border-radius: 15px;
+    height: 33vh;
+    width: 340px;
+    margin-right: 20px;
+    align-items: center;
+}
+
+aside a {
+    display: flex;
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+    margin: 32px 20px;
+    padding: 15px 20px;
+    border-radius: 10px;
+    background-color: white;
+    justify-content: center;
+    font-weight: 600;
+
+}
+
+#third-link {
+    background-color: red;
+    color: white;
+}
+
+.middle-part {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    margin-top: -10px;
+}
+
+.news {
+    width: 380px;
+    height: 360px;
+    background-color: rgba(252, 255, 255, 0.808);
+    border-radius: 15px;
+    border: 1px solid rgba(107, 107, 107, 0.466);
+    margin: 10px;
+}
+
+.news img {
+    width: 380px;
+    height: 170px;
+    object-fit: cover;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+
+.news button {
+    background-color: white;
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 5px 20px;
+    font-size: 16px;
+    font-weight: 500;
+    margin-left: 15px;
+    margin-top: 10px;
+    font-weight: 550;
+}
+
+.news h3 {
+    margin-left: 15px;
+    font-size: 20px;
+}
+
+span {
+    margin-right: 15px;
+    margin-left: 15px;
+    font-size: 16px;
 }
