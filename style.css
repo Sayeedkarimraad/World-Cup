@@ -1,5 +1,6 @@
 body {
     font-family: 'Poppins', sans-serif;
+    margin: 0;
 }
 
 .first-part {
@@ -53,7 +54,7 @@ body {
 
 .second-part {
     display: flex;
-    height: 100vh;
+    height: 90vh;
     margin-top: 100px;
     justify-content: center;
 }
@@ -89,7 +90,7 @@ aside a {
 .middle-part {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    margin-top: -10px;
+    height: 400px;
 }
 
 .news {
@@ -130,4 +131,32 @@ span {
     margin-right: 15px;
     margin-left: 15px;
     font-size: 16px;
+}
+
+footer {
+    color: white;
+    background-color: black;
+    text-align: center;
+    height: 40vh;
+    padding-top: 240px;
+}
+
+h2 {
+    font-size: 40px;
+}
+
+ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+
+li {
+    margin: 20px;
+    color: silver;
+}
+
+hr {
+    margin-left: 200px;
+    margin-right: 200px;
 }
