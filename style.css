@@ -1,205 +1,324 @@
 body {
     font-family: 'Poppins', sans-serif;
-    margin: 0;
+    margin: 0 auto;
+    max-width: 1915px;
 }
 
-@media screen and (max-device-width: 768px) {
+.first-part {
+    display: flex;
+    margin: 50px 150px;
+    background-color: black;
+    color: white;
+    height: 80vh;
+    border-radius: 20px;
+}
+
+.intro {
+    width: 50%;
+}
+
+#article {
+    padding: 40px 50px 40px;
+}
+
+.intro img {
+    width: 90%;
+    height: 100%;
+    object-fit: contain;
+
+}
+
+.intro h1 {
+    font-size: 4vw;
+}
+
+.intro p {
+    font-size: 1vw;
+    width: 80%;
+}
+
+.link {
+    text-decoration: none;
+    background-color: red;
+    color: white;
+    font-size: 1vw;
+    padding: 15px 25px;
+    border-radius: 10px;
+}
+
+.second-part {
+    display: flex;
+    height: 100vh;
+    margin-top: 100px;
+    justify-content: center;
+}
+
+.side-part {
+    background-color: black;
+    border-radius: 15px;
+    height: 38vh;
+    width: 18%;
+    margin-right: 20px;
+    align-items: center;
+}
+
+aside a {
+    display: flex;
+    text-decoration: none;
+    color: black;
+    font-size: 1vw;
+    margin: 32px 20px;
+    padding: 15px 20px;
+    border-radius: 10px;
+    background-color: white;
+    justify-content: center;
+    font-weight: 600;
+
+}
+
+#third-link {
+    background-color: red;
+    color: white;
+}
+
+.middle-part {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    height: 95vh;
+
+}
+
+.news {
+    width: 380px;
+    height: 360px;
+    background-color: rgba(252, 255, 255, 0.808);
+    border-radius: 15px;
+    border: 1px solid rgba(107, 107, 107, 0.466);
+    margin: 10px;
+}
+
+.news img {
+    width: 100%;
+    height: 48%;
+    object-fit: cover;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+
+.news button {
+    background-color: white;
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 5px 20px;
+    font-size: 1em;
+    font-weight: 500;
+    margin-left: 15px;
+    margin-top: 10px;
+    font-weight: 550;
+}
+
+.news h3 {
+    margin-left: 15px;
+    font-size: 1.2em;
+}
+
+span {
+    margin-right: 15px;
+    margin-left: 15px;
+    font-size: 1;
+}
+
+footer {
+    color: white;
+    background-color: black;
+    text-align: center;
+    height: 40vh;
+    padding-top: 240px;
+}
+
+h2 {
+    font-size: 40px;
+}
+
+ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+
+li {
+    margin: 20px;
+    color: silver;
+}
+
+hr {
+    margin-left: 200px;
+    margin-right: 200px;
+}
+
+@media (min-width: 200px) and (max-width: 576px) {
     .first-part {
-        display: flex;
-        height: 60vh;
-        background-color: black;
-        color: white;
-        margin: 6vw 7vw;
-        border-radius: 4vw;
+        flex-direction: column;
+        margin: 20px 30px;
+        height: 130vw;
     }
-}
 
-@media screen and (max-device-width: 768px) {
     .intro {
-        width: 50%;
+        width: 100%;
+        height: 50%;
     }
-}
 
-@media screen and (max-device-width: 768px) {
     .intro img {
-        width: 90%;
+        width: 80%;
+        height: 100%;
     }
-}
 
-@media screen and (max-device-width: 768px) {
-    .intro h1 {
-        font-size: 6vw;
+    #image {
+        display: flex;
+        justify-content: center;
     }
-}
 
-@media screen and (max-device-width: 768px) {
-    .intro p {
-        font-size: 1.7vw;
-    }
-}
-
-@media screen and (max-device-width: 768px) {
-    .link {
-        text-decoration: none;
-        background-color: blue;
-        color: white;
-        font-size: 1.5vw;
-        padding: 1.7vw 3.6vw;
-        border-radius: 1.3vw;
-
-    }
-}
-
-@media screen and (max-device-width: 768px) {
     #article {
-        padding-left: 2vw;
-    }
-}
-
-@media screen and (max-device-width: 768px) {
-    .second-part {
-        display: block;
-        height: 90vh;
-        margin-top: 10vw;
-        height: 170vh;
-    }
-}
-
-@media screen and (max-device-width: 768px) {
-    .side-part {
-        height: 9vw;
+        padding: 0px 0px;
+        width: 100%;
         text-align: center;
     }
-}
 
-@media screen and (max-device-width: 768px) {
-    .side-part a {
-        text-decoration: none;
-        border: 1px solid rgba(128, 128, 128, 0.568);
-        border-radius: 1vw;
-        padding: 2vw 3vw;
-        color: black;
-        font-weight: 600;
-        margin: 1vw;
+    .intro h1 {
+        font-size: 6vw;
+        width: auto;
+        padding: 5px 30px;
+    }
+
+    .intro p {
+        font-size: 3vw;
+        width: auto;
+        padding: 5px 60px;
+    }
+
+    .link {
+        font-size: 2vw;
+        padding: 10px 25px;
+        border-radius: 5px;
 
     }
-}
 
-@media screen and (max-device-width: 768px) {
+    .second-part {
+        display: block;
+        height: 440vw;
+        margin-top: 0px;
+        justify-content: center;
+    }
+
+
+    .side-part {
+        background-color: white;
+        border-radius: 0px;
+        height: 7vw;
+        width: 100%;
+        margin-right: 0px;
+        margin-top: 60px;
+        margin-bottom: 40px;
+        text-align: center;
+
+    }
+
+    aside a {
+        display: inline;
+        text-decoration: none;
+        color: black;
+        font-size: 3vw;
+        margin: 5px;
+        padding: 10px 20px;
+        border-radius: 5px;
+        border: 1px solid black;
+        background-color: white;
+        /* justify-content: center; */
+        font-weight: 600;
+
+    }
+
     #third-link {
         background-color: red;
         color: white;
     }
-}
 
-@media screen and (max-device-width: 768px) {
     .middle-part {
         display: grid;
-        grid-template-columns: repeat(2, 1fr);
-        margin: 10px;
-
+        grid-template-columns: repeat(1, 1fr);
+        height: 10vw;
+        justify-items: center;
     }
-}
 
-@media screen and (max-device-width: 768px) {
     .news {
-        width: 45vw;
-        height: 50vw;
+        width: 80vw;
+        height: 65vw;
         background-color: rgba(252, 255, 255, 0.808);
         border-radius: 15px;
         border: 1px solid rgba(107, 107, 107, 0.466);
-        margin: 1.3vw;
+        margin: 10px;
     }
-}
 
-@media screen and (max-device-width: 1023px) and (min-device-width: 768px) {
     .news img {
-        width: 45vw;
-        height: 22vw;
+        width: 100%;
+        height: 48%;
         object-fit: cover;
         border-top-left-radius: 15px;
         border-top-right-radius: 15px;
     }
-}
 
-@media screen and (max-device-width: 1023px) and (min-device-width: 768px) {
     .news button {
         background-color: white;
         border: 1px solid black;
         border-radius: 5px;
         padding: 5px 20px;
-        font-size: 16px;
+        font-size: 3vw;
         font-weight: 500;
         margin-left: 15px;
         margin-top: 10px;
         font-weight: 550;
     }
-}
 
-@media screen and (max-device-width: 1023px) and (min-device-width: 768px) {
     .news h3 {
         margin-left: 15px;
-        font-size: 2.5vw;
+        font-size: 3vw;
     }
-}
 
-@media screen and (max-device-width: 1023px) and (min-device-width: 768px) {
     span {
         margin-right: 15px;
         margin-left: 15px;
-        font-size: 16px;
+        font-size: 2.8vw;
     }
-}
 
-@media screen and (max-device-width: 1023px) and (min-device-width: 768px) {
-    .view button {
-        background-color: red;
-        border: none;
-        border-radius: 7px;
-        padding: 10px 25px;
-        color: white;
-        font-size: 2vw;
-        margin-left: 310px;
-        margin-top: 30px;
-    }
-}
-
-@media screen and (max-device-width: 1023px) and (min-device-width: 768px) {
     footer {
         color: white;
         background-color: black;
         text-align: center;
-        height: 30vh;
+        height: 80vw;
+        padding-top: 10px;
     }
 
-}
-
-@media screen and (max-device-width: 1023px) and (min-device-width: 768px) {
     h2 {
-        font-size: 5vw;
-        padding-top: 2vw;
+        font-size: 8vw;
     }
-}
 
-@media screen and (max-device-width: 1023px) and (min-device-width: 768px) {
     ul {
-        list-style: none;
-        display: flex;
-        width: 90%;
+        display: block;
+        justify-content: center;
+        padding: 0px;
     }
-}
 
-@media screen and (max-device-width: 1023px) and (min-device-width: 768px) {
     li {
-        margin: 20px;
+        margin: 0px;
         color: silver;
     }
 
-}
-
-@media screen and (max-device-width: 1023px) and (min-device-width: 768px) {
     hr {
-        margin-left: 200px;
-        margin-right: 200px;
+        margin-left: 60px;
+        margin-right: 60px;
+    }
+
+    .view {
+        visibility: hidden;
     }
 }
