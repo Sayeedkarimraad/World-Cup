@@ -46,6 +46,10 @@ body {
     border-radius: 10px;
 }
 
+.link:hover {
+    background-color: rgb(53, 53, 201);
+}
+
 .second-part {
     display: flex;
     height: 45vw;
@@ -132,9 +136,10 @@ footer {
     color: white;
     background-color: black;
     text-align: center;
-    height: 15vw;
+    height: 18vw;
     padding-top: 240px;
 }
+
 
 h2 {
     font-size: 2vw;
@@ -294,9 +299,10 @@ hr {
         color: white;
         background-color: black;
         text-align: center;
-        height: 95vw;
+        height: 132vw;
         padding-top: 10px;
     }
+
 
     h2 {
         font-size: 8vw;
@@ -456,7 +462,7 @@ hr {
         color: white;
         background-color: black;
         text-align: center;
-        height: 25vw;
+        height: 40vw;
         padding-top: 200px;
     }
 
@@ -627,7 +633,7 @@ hr {
         color: white;
         background-color: black;
         text-align: center;
-        height: 15vw;
+        height: 25vw;
         padding-top: 240px;
     }
 

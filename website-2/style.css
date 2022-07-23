@@ -156,6 +156,11 @@ hr {
     visibility: hidden;
 }
 
+.fa-brands {
+    size: 100px;
+    color: whitesmoke;
+}
+
 @media (min-width: 200px) and (max-width: 576px) {
     .first-part {
         flex-direction: column;
@@ -284,7 +289,7 @@ hr {
         color: white;
         background-color: black;
         text-align: center;
-        height: 95vw;
+        height: 98vw;
         padding-top: 10px;
     }
 
@@ -311,6 +316,7 @@ hr {
     .view {
         visibility: hidden;
     }
+
 }
 
 @media (min-width: 577px) and (max-width: 820px) {
@@ -538,7 +544,7 @@ hr {
     .side-part {
         background-color: black;
         border-radius: 15px;
-        height: 30vh;
+        height: 36vh;
         width: 260px;
         margin-right: 20px;
     }
